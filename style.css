@@ -1,25 +1,48 @@
-header {
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-header h1 {
-  font-size: 3rem;
+:root h2 {
+  font-size: 1.5rem;
+  height: 5vh;
 }
 
-main {
+header {
   width: 100vw;
-}
-main #search-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-main .movie-card {
+  margin-bottom: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+header h1 {
+  font-size: 3rem;
+}
+header #search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 100vw;
+  /*??*/
+}
+main #results {
+  overflow-x: auto;
+  overflow-y: scroll;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+}
+main .movie-card {
+  height: 70vh;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
   font-size: 1rem;
+}
+main .movie-card .movie-poster {
+  border: solid 2px red;
+  border-radius: 25px;
+  height: 50%;
 }/*# sourceMappingURL=style.css.map */

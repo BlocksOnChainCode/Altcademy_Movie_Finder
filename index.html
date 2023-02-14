@@ -19,17 +19,17 @@
 <body>
   <header>
     <h1><i class="fa-solid fa-film"></i> Movie Finder <i class="fa-solid fa-film"></i></h1>
-  </header>
-  <main>
     <div id="search-box">
       <input placeholder="movie title"/>
       <button onclick="searchMovie()">Search</button>
     </div>
+  </header>
+  <main>
     
     <div id="results">
       <!--In here go the parsed JSON data-->
       <div class="movie-card">
-        <img id="image" src="https://m.media-amazon.com/images/M/MV5BMTQ1MjQwMTE5OF5BMl5BanBnXkFtZTgwNjk3MTcyMDE@._V1_SX300.jpg" alt="">
+        <img class="movie-poster" id="image" src="https://m.media-amazon.com/images/M/MV5BMTQ1MjQwMTE5OF5BMl5BanBnXkFtZTgwNjk3MTcyMDE@._V1_SX300.jpg" alt="">
         <h1 id="title"></h1>
         <h2 id="year"></h2>
         <h3 id="cast"></h3>
